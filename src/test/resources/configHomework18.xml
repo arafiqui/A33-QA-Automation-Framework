@@ -6,10 +6,12 @@
         <classes>
             <class name="LoginTests"/>
             <class name="BaseTest"/>
-            <class name="Homework18">
+            <class name="Homework18"/>
+            <class name="Homework21">
             <methods>
                 <include name = "playSong"/>
             </methods>
+
             </class>
         </classes>
     </test>

@@ -9,16 +9,14 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Homework18 extends BaseTest {
-//
+public class Homework21 extends BaseTest {
     @Test
-    public void playSong() {
-        openBrowser();
+    public void renameOldPlaylist() {
         enterEmail();
         enterPassword();
         submit();
-        clickNext();
-        clickPlay();
-        Assert.assertTrue(isSongPlaying());
+        clickPlaylist();
+        renamePlaylist();
+        enterPlaylistName();
     }
 }

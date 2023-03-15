@@ -15,7 +15,7 @@ public class Homework18 extends BaseTest {
         enterEmail();
         enterPassword();
         submit();
-        clickNext();
+       clickNext();
         clickPlay();
         Assert.assertTrue(isSongPlaying());
     }

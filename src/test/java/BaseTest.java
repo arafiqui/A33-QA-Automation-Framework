@@ -106,16 +106,14 @@ public class BaseTest {
     }
 
     public void clickNext()  {
-        //WebElement nextBtn = driver.findElement(By.cssSelector("[data-testid ='play-next-btn']"));
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("[data-testid ='play-next-btn']"))).click();
-        //nextBtn.click();
+        WebElement nextBtn = driver.findElement(By.cssSelector("[data-testid ='play-next-btn']"));
+        nextBtn.click();
 
     }
 
     public void clickPlay()  {
-       // WebElement playBtn = driver.findElement(By.cssSelector("[data-testid='play-btn']"));
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("[data-testid='play-btn']"))).click();
-        //playBtn.click();
+        WebElement playBtn = driver.findElement(By.cssSelector("[data-testid='play-btn']"));
+        playBtn.click();
 
     }
 
